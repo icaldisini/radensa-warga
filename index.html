@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DENGUARD Warga — Waspada dengue lebih awal</title>
+<meta name="description" content="DENGUARD: cek risiko demam berdarah (DBD) di kecamatanmu sampai 5 minggu ke depan. Data Dinkes DKI Jakarta dan model peringatan dini.">
+<meta name="theme-color" content="#c0111f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="DENGUARD">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/favicon.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+<aside class="desk-note" aria-hidden="true">
+  <div>
+    <div class="dn-brand"><img src="icons/logo.png" alt="" width="44" height="44">DENGUARD</div>
+    <p>Aplikasi ini dirancang untuk <b>HP</b>. Buka alamat ini di browser ponselmu, lalu pilih <b>Tambahkan ke layar utama</b> agar bisa dipakai seperti aplikasi.</p>
+  </div>
+</aside>
+
+<div id="app" class="app">
+  <div class="splash" id="splash">
+    <img src="icons/logo.png" alt="" width="72" height="72">
+    <b>DENGUARD</b>
+    <span>Memuat info DBD…</span>
+  </div>
+</div>
+
+<div id="sheet-root"></div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="data/kecamatan_44.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/screens.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

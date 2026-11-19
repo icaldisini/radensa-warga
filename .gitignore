@@ -1,0 +1,20 @@
+# Sistem operasi & editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Rahasia lokal: jangan pernah di-commit.
+# (Aplikasi ini hanya memakai kunci publik Supabase; kunci service_role TIDAK boleh ada di sini.)
+.env
+.env.*
+*.pem
+*.key
+
+# Artefak
+node_modules/
+*.log
+*.tmp
+/scratch/
